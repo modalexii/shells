@@ -11,7 +11,7 @@ plist = '''\
     <key>ProgramArguments</key>
     <array>
         <string>python</string>
-        <string>/usr/bin/osxsvc.py</string>
+        <string>/usr/bin/osxsvct.py</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
